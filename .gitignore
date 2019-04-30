@@ -1,0 +1,6 @@
+/lambda/custom/node_modules
+.vscode
+/lambda/custom/pokemon.js
+/lambda/custom/pokemon.json
+.sonarlint
+.ask

@@ -1,0 +1,84 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "alexa-pokedex",
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "es-MX": {},
+        "es-ES": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "es-MX": {
+          "name": "Pokédex",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b2e5/7589a81dfbb74a7b8e48d1285308a438/APP_ICON?versionId=PULzPbPnA0CQuE48Ms2E_i6Ei_TmZ82j&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1549044594&Signature=fP9ODPZ%2Fdtk9%2BEB2wjgKXvnfwuU%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6212/80f440d8a5174224a73426d92b92ef30/APP_ICON_LARGE?versionId=0zEC4OwUFn_2tRr34FKS3pW8.mq1iX53&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1549044594&Signature=AT1IdT2khD%2BW0KJn4uJZEd9b9Zs%3D",
+          "summary": "Información detallada de cada Pokémon",
+          "description": "Una Pokédex completa que incluye información de cada uno de los Pokémon.\n809 en total!\n\nPuedes pedirlos por nombre, numero o tipo.\n<<Alexa, abre pokedex >>\n<<Alexa, pon del tipo fuego >>\n<<Alexa, busca a pikachu >>\n<<Alexa,  abre el número uno>>\n\nSi necesitas ayuda di:\n<<Alexa, ayuda>>\n\n* Disclaimer *\nEl skill de Pokedex no es oficial, es hecho por un fan y No esta afiliado, patrocinado ni soportado por Nintendo, GAME FREAK o The Pokémon company en ninguna manera.\nLas imágenes de esta skill son usadas bajo 'fair use'\nPokémon y los nombres de cada Pokémon son marcas registradas de Nintendo.\nPokémon © 2002-2017 Pokémon. © 1995-2017 Nintendo/Creatures Inc./GAME FREAK inc.",
+          "examplePhrases": [
+            "Alexa, abre poke dex",
+            "Alexa, abre poke dex y busca a pikachu",
+            "Alexa, abre poke dex y pon del tipo fuego"
+          ],
+          "keywords": [
+            "pokemon",
+            "poke",
+            "pokedex",
+            "pikachu",
+            "pokebola",
+            "pokemon",
+            "go",
+            "game",
+            "freak",
+            "evee",
+            "atrapalos",
+            "entrenador"
+          ]
+        },
+        "es-ES": {
+          "name": "Pokédex",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ff38/c6bbf82fd0e64e89a1434c6819899cd9/APP_ICON?versionId=O_NKOBS.8LqKWzVtjzp7hIsu_o.2tfgQ&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1549044594&Signature=ZN30t3mGAw4qZwGlbkpaAgAvAz4%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ac4d/5af3623b6bc74961ab1b5f7c2ee66f02/APP_ICON_LARGE?versionId=hSRaQ2MhEEa2vGNQAzu_fTgdHVDJ61v5&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1549044594&Signature=1xn0mqd%2FvatPsyqqU0B4UCnEv9E%3D",
+          "summary": "Información detallada de cada Pokémon",
+          "description": "Una Pokédex completa que incluye información de cada uno de los Pokémon.\n809 en total!\n\nPuedes pedirlos por nombre, numero o tipo.\n<<Alexa, abre pokedex >>\n<<Alexa, pon del tipo fuego >>\n<<Alexa, busca a pikachu >>\n<<Alexa,  abre el número uno>>\n\nSi necesitas ayuda di:\n<<Alexa, ayuda>>\n\n* Disclaimer *\nEl skill de Pokedex no es oficial, es hecho por un fan y No esta afiliado, patrocinado ni soportado por Nintendo, GAME FREAK o The Pokémon company en ninguna manera.\nLas imágenes de esta skill son usadas bajo 'fair use'\nPokémon y los nombres de cada Pokémon son marcas registradas de Nintendo.\nPokémon © 2002-2017 Pokémon. © 1995-2017 Nintendo/Creatures Inc./GAME FREAK inc.",
+          "examplePhrases": [
+            "Alexa, abre poke dex",
+            "Alexa, abre poke dex y busca a pikachu",
+            "Alexa, abre poke dex y pon del tipo fuego"
+          ],
+          "keywords": [
+            "pokemon",
+            "poke",
+            "pokedex",
+            "pikachu",
+            "pokebola",
+            "pokemon",
+            "go",
+            "game",
+            "freak",
+            "evee",
+            "atrapalos",
+            "entrenador"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Open using ivocation <<Alexa, abre pokedex>>\n\nsearch using number, name or type\n<<Alexa,  busca a pikachu>>\n<<Alexa,  abre del tipo fuego>>\n<<Alexa, busca el 25>>\n\nask for more information (only after receiving first piece of info): <<Alexa, Si>>\nListen next pokemon, if it was searched by type and two pieces of info already received<<Alexa, siguiente>>\n\nayuda <<Alexa, ayuda>>",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    }
+  }
+}
